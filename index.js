@@ -83,6 +83,7 @@ export default class RNSketchCanvas extends React.Component {
     strokeWidthComponent: null,
 
     strokeColors: [
+      {color: '#8000FF'},
       { color: '#000000' },
       { color: '#FF0000' },
       { color: '#00FFFF' },
