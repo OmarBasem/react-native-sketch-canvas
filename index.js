@@ -261,7 +261,7 @@ export default class RNSketchCanvas extends React.Component {
           permissionDialogTitle={this.props.permissionDialogTitle}
           permissionDialogMessage={this.props.permissionDialogMessage}
         />
-        <View style={{ flexDirection: 'row' }}>
+        <View style={{ flexDirection: 'row', borderTopWidth: 1, borderTopColor: 'lightgrey' }}>
           <FlatList
             data={this.props.strokeColors}
             extraData={this.state}
